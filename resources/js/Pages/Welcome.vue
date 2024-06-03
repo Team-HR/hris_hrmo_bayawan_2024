@@ -1,4 +1,6 @@
 <script setup lang="ts">
+
+
 import { Head, Link } from '@inertiajs/vue3';
 
 defineProps<{
@@ -17,6 +19,7 @@ function handleImageError() {
 </script>
 
 <template>
+    
     <Head title="Welcome" />
     <div class="bg-gray-50 text-black/50 dark:bg-black dark:text-white/50">
         <img
@@ -24,6 +27,7 @@ function handleImageError() {
             class="absolute -left-20 top-0 max-w-[877px]"
             src="https://laravel.com/assets/img/welcome/background.svg"
         />
+       
         <div
             class="relative min-h-screen flex flex-col items-center justify-center selection:bg-[#FF2D20] selection:text-white"
         >
@@ -71,6 +75,7 @@ function handleImageError() {
                 </header>
 
                 <main class="mt-6">
+                    
                     <div class="grid gap-6 lg:grid-cols-2 lg:gap-8">
                         <a
                             href="https://laravel.com/docs"
