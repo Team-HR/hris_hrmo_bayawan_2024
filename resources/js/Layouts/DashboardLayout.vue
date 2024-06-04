@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Navbar from '@/Components/Navbar.vue';
+    import Navbar from '@/Components/Navbar.vue';
 </script>
 
 <template>
@@ -8,7 +8,7 @@ import Navbar from '@/Components/Navbar.vue';
             <Navbar />
         </div>
         
-        <div>
+        <div class="pb-4">
             <slot />
         </div>
     </div>
