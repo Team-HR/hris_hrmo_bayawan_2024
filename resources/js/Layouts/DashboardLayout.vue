@@ -8,7 +8,7 @@
             <Navbar />
         </div>
         
-        <div class="pb-4">
+        <div class="py-4 bg-base-200">
             <slot />
         </div>
     </div>

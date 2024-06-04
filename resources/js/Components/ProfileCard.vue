@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="card w-full shadow-xl p-4">
+    <div class="card bg-base-100 w-full shadow-2xl p-4">
         <div class="flex md:flex-row flex-col md:items-start items-center gap-2">
             <div class="flex flex-col w-max">
                 <div class="avatar">
