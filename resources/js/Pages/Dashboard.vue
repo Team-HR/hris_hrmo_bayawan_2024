@@ -3,7 +3,7 @@
     import ProfileCard from '@/Components/ProfileCard.vue'
     import { ref } from 'vue';
 
-    const activeNavItem = ref<number>(4);
+    const activeNavItem = ref<number>(0);
 
     const dashboardNavItems = [
         {name: "PDS", navId: 0, content:"pds" },

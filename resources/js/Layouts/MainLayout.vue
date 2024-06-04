@@ -4,7 +4,7 @@ import Navbar from '@/Components/Navbar.vue';
 
 <template>
     <div class="max-w-3xl">
-        <div class="fixed z-50">
+        <div class="fixed z-50 w-full">
             <Navbar />
         </div>
         

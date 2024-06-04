@@ -4,7 +4,7 @@
 
 <template>
     <div class="max-w-3xl">
-        <div class="fixed z-50">
+        <div class="fixed z-50 w-full bg-base-100">
             <Navbar />
         </div>
         
